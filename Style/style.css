@@ -1,0 +1,123 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+}
+
+/* Common Classes */
+a {
+  text-decoration: none;
+  font-weight: 300;
+  color:  white;
+}
+li {
+  list-style-type: none;
+}
+h1, h2, p {
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.38;
+}
+h1 {
+  font-size: 52px;
+  margin-bottom: 20px;
+}
+h2 {
+    font-size: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+p {
+  font-size: 20px;
+  max-width: 250px;
+  margin: 0 auto;
+  font-weight: 400;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  -webkit-box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.32);
+-moz-box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.32);
+box-shadow: 0px 7px 10px 0px rgba(0,0,0,0.32);
+background-image: url('https://i.ibb.co/fH2142d/bg-1.jpg');
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 100vh;
+}
+.main-content {
+  max-width: 960px;
+  margin: 0 auto;
+  text-align: center;
+  min-height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+header nav,
+nav ul {
+  display: flex;
+}
+header nav {
+  align-items: center;
+  justify-content: flex-end;
+  padding: 15px 20px;
+  min-height: 100px;
+}
+header figure {
+  flex-grow: 2;
+}
+header img {
+  width: 56px;
+  height: 56px;
+}
+header li {
+  margin: 10px 20px;
+}
+.btn-main {
+  padding: 10px 20px;
+  border: none;
+  background-color: #ff55a0;
+  border-radius: 100px;
+  color: white;
+  font-size: 15px;
+}
+.book-btn-block h2 {
+  text-align: center;
+}
+.book-btn-block hr {
+  max-width: 300px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.book-btn-block ul {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+.book-btn-block h3 {
+  font-size: 30px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 30px;
+}
+.book-btn-block a {
+  padding: 15px 20px;
+  border-radius: 100px;
+  outline: none;
+}
+.book-btn-block .btn-col-pri {
+  background-color: #b78b4f;
+}
+.book-btn-block .btn-col-sec {
+  background-color: #b3476f;
+}
+.book-btn-block .btn-col-other {
+  background-color: #8aa13a;
+}
